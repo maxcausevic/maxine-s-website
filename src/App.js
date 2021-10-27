@@ -12,6 +12,7 @@ import linkedin from "./images/linkedin.png";
 import espressomachine from "./images/espressomachine.png";
 import jiujitsu from "./images/jiujitsu.png";
 import programming from "./images/programming.png";
+import pet from "./images/pet.png";
 
 function App() {
   return (
@@ -95,6 +96,28 @@ function App() {
             alt=""
             width="70"
             height="75"
+            margin-right="20"
+            class="d-inline-block align-text-top"
+          />
+        </div>
+        <div className="doglover">
+          <p>
+            Here is my Java project I completed as the front-end developer.
+          </p>
+          <a
+            href="https://github.com/maxcausevic/dogLoverProject"
+            className="btn btn-secondary btn-lg mb-1"
+            role="button"
+          >
+            Dogstagram
+          </a>
+          <br></br>
+          <img
+            src={pet}
+            alt="media"
+            alt=""
+            width="60"
+            height="65"
             margin-right="20"
             class="d-inline-block align-text-top"
           />
